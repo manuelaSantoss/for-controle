@@ -58,6 +58,7 @@ for (let contador = 1; contador <= 10; contador++) {
    *A tag br colocada ao final da instrução document.write servirá para quebrar linha após apresentar o cálculo respectivo com a instrução executada pelo programa.*
 
 Assim, o resultado que será escrito na tela será:
+
 ![tabuadaDe2](tabuadaDe2.png)
 
 Contudo, caso queira deixar que o usuário insira o número que deseja calcular a tabuada, não sendo apenas a tabuada de 2, o código será o seguinte:
