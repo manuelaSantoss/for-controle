@@ -1,1 +1,2 @@
-# 1INFOs_forControle
+# Repetição com variável de controle
+## Laços de repetição com For
