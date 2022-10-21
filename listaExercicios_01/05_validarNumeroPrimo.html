@@ -6,11 +6,20 @@
     */
 
     //ENTRADA
-
-
+    const numeroPerguntar = Number(prompt("Informe o seu número primo"))
+    let divisivel = 0;
     //PROCESSAMENTO
-
-
+    for (let controle = 1; controle <= numeroPerguntar; controle++) {
+        if (numeroPerguntar % controle === 0 ) {
+            divisivel++
+        }
+        
+    }
+    if (divisivel === 2) {
+        document.write(`Seu número e primo ${numeroPerguntar}`)
+    }
+    else{
+        document.write(`Seu número não e primo ${numeroPerguntar}`)
+    }
     //SAÍDA
-
 </script>

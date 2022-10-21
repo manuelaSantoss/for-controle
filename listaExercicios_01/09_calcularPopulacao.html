@@ -5,12 +5,25 @@
     Considere que a população de uma cidade seja de 50000 habitantes, crescendo 1,5% ao ano. Apresente em tela a população prevista para um prazo de 5 anos e um prazo de 10 anos. Apresente os dados em tela.
     */
 
-    //ENTRADA
-
+  //ENTRADA
+  let populacaoAtual = 50000;
+    const media = (1.5/100)
+    let respota5 = "";
+    let respota10 = "";
 
     //PROCESSAMENTO
-
+    for (let anos = 1; anos <= 10; anos++) {
+        populacaoAtual = populacaoAtual + (populacaoAtual * media)
+        if (anos === 5) {
+            respota5 = `Este e o valor em 5 anos ${populacaoAtual.toFixed(2)}`
+        }
+        else{
+            respota10 = `Este e o valor em 10 anos ${populacaoAtual.toFixed(2)}`
+        }
+        
+    }
 
     //SAÍDA
+    document.write(`Os valores sao ${respota5} </br> Os valores sao ${respota10} `)  
 
 </script>
